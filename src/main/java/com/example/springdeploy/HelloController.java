@@ -16,7 +16,7 @@ public class HelloController {
     }
 
 
-    @GetMapping("/bootStrap")
+    @GetMapping("/")
     public String bootStrap(){
         return """
                 <!doctype html>
